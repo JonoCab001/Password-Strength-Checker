@@ -10,7 +10,7 @@ password.oninput = function() {
     let widthPower = ['1%', '25%', '50%', '75%', '100%'];
 
     // Array for Password Meter colour
-    let colourPower = ['#D73F40', '#DC6551', '#F2B84F', '#BDE952', '#3ba62f'];
+    let colorPower = ['#D73F40', '#DC6551', '#F2B84F', '#BDE952', '#3ba62f'];
 
     // Check for password characters
     if (value.length >= 6) {
@@ -29,5 +29,5 @@ password.oninput = function() {
     }
 
     power.style.width = widthPower[point];
-    power.style.backgroundColour = colourPower[point];
+    power.style.backgroundColor = colorPower[point];
 }
